@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+    float num1, num2;
+    float total;
+    
+    printf("Input numbers: ");
+    scanf("%f", &num1);
+    scanf("%f", &num2);
+    
+    total=num1+num2;
+    printf("Addition: %f", total);
+    total=num1-num2;
+    printf("\nSubtraction: %f", total);
+    total=num1*num2;
+    printf("\nMultiplication: %f", total);
+    total=num1/num2;
+    printf("\nDivision: %f", total);
+
+    return 0;
+}
