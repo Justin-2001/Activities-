@@ -1,0 +1,20 @@
+# Activities-
+#include<stdio.h>
+int main(){
+
+    char input[255];
+    int num;
+
+        printf("Type: ");
+        get(input);
+        num=0;
+        while (input [num]!='\0'){
+            if(input[num]=='a' || input[num]=='e' ||input[num]=='i' || input[num]=='o' ||input[num]=='u');
+            input[num]=input[num]-32;
+            num++;
+        }
+        printf("Result: ");
+        puts(input);
+
+return 0;
+} 
